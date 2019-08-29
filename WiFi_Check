@@ -76,7 +76,7 @@ fi
 
 echo 
 echo "Current Setting:"
-/sbin/ifconfig $wlan | grep "inet addr:"
+/sbin/ifconfig $wlan | grep "        inet "
 echo
  
 # Check is complete, Remove Lock file and exit
